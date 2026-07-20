@@ -1,0 +1,11 @@
+<svg viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="libTitle">
+  <title id="libTitle">Illustration of stacked books representing the library management system</title>
+  <rect width="400" height="240" fill="#1f2330"/>
+  <g transform="translate(90,70)">
+    <rect x="0" y="80" width="220" height="18" rx="3" fill="#2b2f3f"/>
+    <rect x="10" y="40" width="60" height="42" rx="3" fill="#7c5cff"/>
+    <rect x="78" y="30" width="60" height="52" rx="3" fill="#22c1a2"/>
+    <rect x="146" y="50" width="60" height="32" rx="3" fill="#ff9f5b"/>
+    <rect x="20" y="10" width="40" height="16" rx="2" fill="#e7e9f0" opacity="0.15"/>
+  </g>
+</svg>

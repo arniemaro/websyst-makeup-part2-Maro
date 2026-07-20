@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arnie Maro — IT Student Portfolio</title>
+  <meta name="description" content="Arnie Maro, 3rd Year IT Diploma student — portfolio home page." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="index.html">arnie<span class="dot">.</span>maro</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#skills">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark and light mode" aria-pressed="false">
+        <span id="theme-icon" aria-hidden="true">🌙</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="wrap">
+        <div class="hero-copy">
+          <span class="eyebrow">// home.html</span>
+          <h1 class="title">Hi, I'm <span class="accent">Arnie Maro</span>.</h1>
+          <p class="lede">A 3rd Year IT Diploma student who likes turning ideas into working software — from desktop tools to small web apps.</p>
+          <div class="btn-row">
+            <a href="projects.html" class="btn btn-primary">View my projects</a>
+            <a href="contact.html" class="btn btn-ghost">Get in touch</a>
+          </div>
+        </div>
+        <figure class="hero-figure">
+          <img src="assets/avatar.svg" alt="Monogram avatar with the initials A M inside a rounded terminal-style window" width="220" height="220" />
+          <figcaption>Arnie Maro — IT Diploma, 3rd Year</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap">
+        <h2 class="section-title">About <span class="accent">Me</span></h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>I'm currently in my 3rd Year of an IT Diploma program. I'm drawn to the practical side of tech — building things that run, break, get debugged, and eventually work. Coursework has taken me through programming, databases, and networking, and I use personal projects to go deeper into whatever I'm curious about that week.</p>
+            <p>Outside of class, I like picking apart how small web apps are put together, which is part of why this portfolio is styled like a code editor.</p>
+          </div>
+          <aside class="about-aside" aria-label="Quick facts">
+            <h3>Quick facts</h3>
+            <ul>
+              <li><strong>Program:</strong> Diploma in IT</li>
+              <li><strong>Year:</strong> 3rd Year</li>
+              <li><strong>Status:</strong> Open to internships</li>
+              <li><strong>Interests:</strong> Web dev, networking, databases</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="wrap">
+        <h2 class="section-title">Skills <span class="accent">&amp; Tools</span></h2>
+        <p class="section-lede">A snapshot of what I've been building with in class and on my own projects.</p>
+        <ul class="skills-grid">
+          <li class="skill-card">
+            <span class="icon" aria-hidden="true">💻</span>
+            <h3>HTML / CSS / JS</h3>
+            <p>Building and styling web pages from scratch, no frameworks.</p>
+            <span class="skill-level">Comfortable</span>
+          </li>
+          <li class="skill-card">
+            <span class="icon" aria-hidden="true">☕</span>
+            <h3>Java</h3>
+            <p>Desktop applications and coursework projects using Swing.</p>
+            <span class="skill-level">Comfortable</span>
+          </li>
+          <li class="skill-card">
+            <span class="icon" aria-hidden="true">🐍</span>
+            <h3>Python</h3>
+            <p>Scripting, automation, and small networking tools.</p>
+            <span class="skill-level">Learning</span>
+          </li>
+          <li class="skill-card">
+            <span class="icon" aria-hidden="true">🗄️</span>
+            <h3>SQL / MySQL</h3>
+            <p>Designing schemas and writing queries for coursework databases.</p>
+            <span class="skill-level">Comfortable</span>
+          </li>
+          <li class="skill-card">
+            <span class="icon" aria-hidden="true">🌐</span>
+            <h3>Networking</h3>
+            <p>Fundamentals of LANs, IP addressing, and basic monitoring.</p>
+            <span class="skill-level">Learning</span>
+          </li>
+          <li class="skill-card">
+            <span class="icon" aria-hidden="true">🔧</span>
+            <h3>Git &amp; GitHub</h3>
+            <p>Version control for coursework and personal projects.</p>
+            <span class="skill-level">Comfortable</span>
+          </li>
+        </ul>
+        <p class="note">
+          Note: the skills above are placeholders based on a typical IT diploma track — edit to match your actual coursework.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© <span data-year></span> Arnie Maro · built with vanilla HTML, CSS &amp; JS</span>
+      <span class="status">no frameworks used</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

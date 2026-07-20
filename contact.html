@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Arnie Maro</title>
+  <meta name="description" content="Get in touch with Arnie Maro, 3rd Year IT Diploma student." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="index.html">arnie<span class="dot">.</span>maro</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#skills">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </div>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark and light mode" aria-pressed="false">
+        <span id="theme-icon" aria-hidden="true">🌙</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="contact">
+      <div class="wrap">
+        <span class="eyebrow">// contact.html</span>
+        <h1 class="title">Let's <span class="accent">connect</span>.</h1>
+        <p class="lede">Whether it's about an internship, a project collaboration, or just talking shop about IT — feel free to reach out.</p>
+
+        <div class="contact-grid">
+          <div class="contact-form-col">
+            <form class="contact-form" id="contact-form" novalidate>
+              <div class="field">
+                <label for="name">Name <span class="req">*</span></label>
+                <input type="text" id="name" name="name" autocomplete="name" />
+                <small class="error-msg" role="alert"></small>
+              </div>
+
+              <div class="field">
+                <label for="email">Email <span class="req">*</span></label>
+                <input type="email" id="email" name="email" autocomplete="email" />
+                <small class="error-msg" role="alert"></small>
+              </div>
+
+              <div class="field">
+                <label for="inquiry-type">Inquiry type <span class="req">*</span></label>
+                <select id="inquiry-type" name="inquiry-type">
+                  <option value="" selected disabled>Select an inquiry type</option>
+                  <option value="Internship">Internship opportunity</option>
+                  <option value="Collaboration">Project collaboration</option>
+                  <option value="General">General question</option>
+                  <option value="Other">Other</option>
+                </select>
+                <small class="error-msg" role="alert"></small>
+              </div>
+
+              <div class="field">
+                <label for="message">Message <span class="req">*</span></label>
+                <textarea id="message" name="message"></textarea>
+                <small class="error-msg" role="alert"></small>
+              </div>
+
+              <div>
+                <button type="submit" class="btn btn-primary">Send message</button>
+              </div>
+
+              <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+
+          <aside class="contact-aside" aria-label="Direct contact details">
+            <h3>Other ways to reach me</h3>
+            <div class="row"><span class="key">Email</span><span>arnie.maro.dev@example.com</span></div>
+            <div class="row"><span class="key">GitHub</span><a class="inline-link" href="https://github.com/" target="_blank" rel="noopener">github.com/arniemaro</a></div>
+            <div class="row"><span class="key">LinkedIn</span><a class="inline-link" href="https://linkedin.com/" target="_blank" rel="noopener">linkedin.com/in/arniemaro</a></div>
+            <div class="row"><span class="key">Based in</span><span>Philippines</span></div>
+            <p class="note">Note: contact details above are placeholders — replace with your real email and profile links.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© <span data-year></span> Arnie Maro · built with vanilla HTML, CSS &amp; JS</span>
+      <span class="status">no frameworks used</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

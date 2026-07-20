@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Arnie Maro</title>
+  <meta name="description" content="Projects by Arnie Maro, 3rd Year IT Diploma student." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="index.html">arnie<span class="dot">.</span>maro</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#skills">Skills</a>
+        <a href="projects.html" aria-current="page">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark and light mode" aria-pressed="false">
+        <span id="theme-icon" aria-hidden="true">🌙</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="projects-intro">
+      <div class="wrap">
+        <span class="eyebrow">// projects.html</span>
+        <h1 class="title">Things I've <span class="accent">built</span>.</h1>
+        <p class="lede">A few coursework and personal projects from my IT diploma so far. Cards below are rendered dynamically from a JavaScript data array.</p>
+      </div>
+    </section>
+
+    <section id="projects-listing">
+      <div class="wrap">
+        <h2 class="section-title">Project <span class="accent">Gallery</span></h2>
+        <div class="projects-row" id="projects-row">
+          <!-- Project <article> cards are created here by js/main.js -->
+        </div>
+
+        <aside class="projects-aside" aria-label="About these projects">
+          <p><strong>Note:</strong> project details, tags, and thumbnails above are placeholders generated from a sample data array in <code>js/main.js</code> — swap in your real project names, stacks, screenshots, and links.</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© <span data-year></span> Arnie Maro · built with vanilla HTML, CSS &amp; JS</span>
+      <span class="status">no frameworks used</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
