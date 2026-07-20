@@ -16,9 +16,3 @@
 | **2.3** |  JavaScript + DOM Manipulation | `src/scripts/main.js, src/scripts/domUtils.js, src/components/DynamicList.jsx` |
 
 ---
-
-## Setup & Running Locally
-
-1. Clone the repository:
-   ```bash
-   git clone[ (https://arniemaro.github.io/websyst-makeup-part2-Maro/).git
