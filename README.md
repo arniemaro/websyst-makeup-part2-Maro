@@ -4,8 +4,7 @@
 * **Student Name:** Arnie S. Maro
 * **Student ID:** 2023-24511111
 * **Variation Code:** 
-* **Live Deployment URL:** [https://<your-github-username>.github.io/<repository-name>/](https://<your-github-username>.github.io/<repository-name>/)
-
+* **Live Deployment URL:** (https://arniemaro.github.io/websyst-makeup-part2-Maro/)
 ---
 
 ## Requirements Mapping
@@ -22,4 +21,4 @@
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/](https://github.com/)<your-username>/<repository-name>.git
+   git clone[ (https://arniemaro.github.io/websyst-makeup-part2-Maro/).git
