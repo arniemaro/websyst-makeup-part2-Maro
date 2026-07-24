@@ -1,10 +1,4 @@
-/* =========================================================
-   Arnie Maro — Portfolio
-   Vanilla CSS3. Dark theme is the default; a light theme is
-   applied when [data-theme="light"] is set on <html> by
-   js/main.js (toggle button, persisted via localStorage).
-   ========================================================= */
-
+/*AM-24511111-M1*/
 /* ---------- 1. Custom properties (>=4 colors in :root) ---------- */
 :root {
   --color-bg: #0f1117;
