@@ -1,6 +1,4 @@
-/* Arnie Maro — Portfolio
-   Vanilla JavaScript only. No inline handlers — everything is
-   wired up here with addEventListener. */
+/*AM-24511111-M1*/
 
 (function () {
   "use strict";
