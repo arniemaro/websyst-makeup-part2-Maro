@@ -3,7 +3,7 @@
 ## Student Details
 * **Student Name:** Arnie S. Maro
 * **Student ID:** 2023-24511111
-* **Variation Code: AM-24511111-M1 
+* **Variation Code:** AM-24511111-M1 
 * **Live Deployment URL:** ( https://arniemaro.github.io/websyst-makeup-part2-Maro/ )
 ---
 
